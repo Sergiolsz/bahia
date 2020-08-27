@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "75aaa9c4-d955-4e64-ba1a-c58cf31d3cd8",
+		"name": "Bahia Fibonacci",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Fibonacci Sequence",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bahia/fibonacci/25",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bahia",
+						"fibonacci",
+						"25"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fibonacci sequence and number chosen from the list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bahia/fibonacci/10/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bahia",
+						"fibonacci",
+						"10",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
